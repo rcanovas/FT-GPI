@@ -6,7 +6,6 @@ As presented at the TMPred web-service (http://www.ch.embnet.org/software/TMPRED
 ## Requirements
 
 In order to successfully compile FT-GPI in Ubuntu-Linux machine you need: 
-
 - An updated g++ version compiler
 - An installed updated version of the cmake build system (version ≥ 3.5)
 - An installed updated version of the boost library
@@ -25,13 +24,13 @@ To be able to compile the codes:
 
 ## Methods
 
-- [FT-GPI] :
+-[FT-GPI] :
 
-	Usage: ./FT-GPI file_name <opt>
-		<file_name>: Name of the fasta file to be analyzed
-
-	Options:
-  		-h [ --help ]                   print usage message
+        Usage: ./FT-GPI file_name <opt>
+	  <file_name>: Name of the fasta file to be analyzed
+	  
+        Options:
+	        -h [ --help ]                   print usage message
   		-o [ --output ] arg             pathname for output. Default: file_name.gpi
   		-t [ --training ] arg           pathname of the training set of GPI proteins.
                                   		Default: none
