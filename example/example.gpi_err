@@ -1,0 +1,12 @@
+GPI predicted using: (max distance, min score, term)
+(15, 1000, Nterm)
+(10, 1800, Cterm)
+0.5% of the max(n-term, c-term) for Middle Helixes
+
+Error type: 
+          1 - Start of Nterm (lower than 1.5 * limit)
+          2 - End of Cterm (lower than 1.5 * limit)
+          3 - Score of Nterm (higher than 0.9 * limit)
+          4 - Score of Cterm (higher than 0.9 * limit)
+          5 - Score Middle TM(s) (add 5% to the k limit or add 10% to the score limit)
+

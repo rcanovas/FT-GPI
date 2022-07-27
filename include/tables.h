@@ -1,4 +1,4 @@
-/* FT-GPI - Transmembrane Region Predictor
+/* FT-GPI 
  * Copyright (C) 2022 Rodrigo Canovas
  *
  * This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@
 #include <vector>
 #include <cmath>
 
-#ifndef FTGPI_TABLES_H
-#define FTGPI_TABLES_H
+#ifndef FDGPI_TABLES_H
+#define FDGPI_TABLES_H
 
-namespace ftgpi {
+namespace fdgpi {
 
     std::string rowcode = "ACDEFGHIKLMNPQRSTVWY"; //for the matrices
 
@@ -306,4 +306,4 @@ namespace ftgpi {
 }
 
 
-#endif //FTGPI_TABLES_H
+#endif //FDGPI_TABLES_H

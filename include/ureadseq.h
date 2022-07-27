@@ -1,5 +1,5 @@
-/* FT-GPI - Transmembrane Region Predictor
- * Copyright (C) 2022 Rodrigo Canovas
+/* TMPred - Transmembrane Region Predictor
+ * Copyright (C) 2018 Rodrigo Canovas
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -16,13 +16,13 @@
  * */
 
 
-#ifndef FTGPI_UREADSEQ_H
-#define FTGPI_UREADSEQ_H
+#ifndef FDGPI_UREADSEQ_H
+#define FDGPI_UREADSEQ_H
 
 #include <vector>
 #include "./dependent_parts.h"
 
-namespace ftgpi {
+namespace fdgpi {
 
 
     class rwSeq {
@@ -101,4 +101,4 @@ namespace ftgpi {
 }
 
 
-#endif //FTGPI_UREADSEQ_H
+#endif //FDGPI_UREADSEQ_H

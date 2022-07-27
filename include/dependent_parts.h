@@ -1,4 +1,4 @@
-/* FT-GPI - Transmembrane Region Predictor
+/* FT-GPI
  * Copyright (C) 2022 Rodrigo Canovas
  *
  * This program is free software: you can redistribute it and/or modify
@@ -16,15 +16,15 @@
  * */
 
 
-#ifndef FTGPI_DEPENDENT_PARTS_H
-#define FTGPI_DEPENDENT_PARTS_H
+#ifndef FDGPI_DEPENDENT_PARTS_H
+#define FDGPI_DEPENDENT_PARTS_H
 
 #include <stdlib.h>
 #include <iostream>
 #include <fstream>
 #include <sstream>
 
-namespace ftgpi {
+namespace fdgpi {
 
     //tmpred constants
     const int MAXSEQLEN = 6000;
@@ -76,4 +76,4 @@ namespace ftgpi {
 }
 
 
-#endif //FTGPI_DEPENDENT_PARTS_H
+#endif //FDGPI_DEPENDENT_PARTS_H
